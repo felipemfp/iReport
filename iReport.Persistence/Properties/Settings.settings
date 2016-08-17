@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="iReport.Persistence.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="xmlCourse" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Temp\Course.xml</Value>
+    </Setting>
+    <Setting Name="xmlStudent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Temp\Student.xml</Value>
+    </Setting>
+    <Setting Name="xmlSubject" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Temp\Subject.xml</Value>
+    </Setting>
+    <Setting Name="xmlReportCard" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Temp\ReportCard.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

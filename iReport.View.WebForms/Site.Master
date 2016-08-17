@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="iReport.View.WebForms.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>iReport - <%: Page.Title %></title>
+    <link rel="icon" href="favicon.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/normalize.css" rel="stylesheet" />
+    <link href="Style/skeleton.min.css" rel="stylesheet" />
+    <link href="Style/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="formMain" runat="server">
+        <header>
+            <div class="container">
+                <a href="Default.aspx"><h1>iReport</h1></a>
+                <nav>
+                    <ul>
+                        <a href="Courses.aspx"><li>Course</li></a>
+                        <a href="Subjects.aspx"><li>Subject</li></a>
+                        <a href="Students.aspx"><li>Student</li></a>
+                        <a href="ReportCards.aspx"><li>Report Card</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container content">            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="container">iReport &copy; <%: DateTime.Today.Year %></div>
+        </footer>
+    </form>
+    <script src="Script/jquery.min.js"></script>
+</body>
+</html>
